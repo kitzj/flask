@@ -1,7 +1,7 @@
 from flask import Flask, render_template, Blueprint
-from .auth import bp
+from auth import bp
 # adjust the import path according to your project structure
-from .db import init_app, get_db
+from db import init_app, get_db
 import os
 
 app = Flask(__name__)
